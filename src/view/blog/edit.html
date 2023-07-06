@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/">Trang chủ</a>
+<a href="/blogs">Danh sách sản phẩm</a>
+<h2>Thêm mới sản phẩm</h2>
+<form action="/edit-blog" method="post">
+    <input type="text" name="title">
+    <input type="text" name="content">
+    <select name="category">
+       {listCategory}
+      
+    </select>
+    <button>Add</button>
+</form>
+</body>
+</html>
